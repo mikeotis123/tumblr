@@ -56,22 +56,26 @@
  	padding: 7em 0 0 0;
  	border-right: 1px solid #b8e2fe;
 
+
  	ul {
  		list-style: none;
  		text-align: right;
- 		padding-right: 3em;
+ 		padding-right: 2em;
  		.category {
  			font-weight: 900;
- 			font-size: 2.5em;
+ 			font-size: 2.3em;
  			text-transform: uppercase;
  			color: #22747b;
+
  		}
  		li {
  			padding: .45em 0;
+
  			a {
  				color: #FFF;
  				text-decoration: none;
  				transition: all .4s ease;
+
  				&:hover {
  					color: #3d4d56;
  				}
@@ -80,6 +84,7 @@
  		.active {
  			a {
  				color: #33acb7;
+
  			}
  		}
  	}
